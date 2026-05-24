@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>wBooks Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f3ec;
+      --text: #221f1b;
+      --muted: #6b6258;
+      --panel: #fffaf1;
+      --accent: #b54a12;
+      --border: #ded2c0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #11100f;
+        --text: #f3eee5;
+        --muted: #c0b5a6;
+        --panel: #1c1a17;
+        --accent: #ff9a3d;
+        --border: #373028;
+      }
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+
+    article {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: clamp(24px, 5vw, 44px);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      line-height: 1.1;
+      font-size: clamp(2rem, 6vw, 3.2rem);
+    }
+
+    h2 {
+      margin-top: 2rem;
+      line-height: 1.2;
+      font-size: 1.35rem;
+    }
+
+    .date {
+      color: var(--muted);
+      margin-top: 0;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    ul {
+      padding-left: 1.3rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>wBooks Privacy Policy</h1>
+      <p class="date">Effective date: May 24, 2026</p>
+
+      <p>wBooks and wBooks Utility are privacy-focused book reading apps for Wear OS and Android. This policy explains what data the apps handle and how that data is used.</p>
+
+      <h2>Summary</h2>
+      <p>wBooks does not sell personal data, does not show ads, and does not use advertising trackers. The app is designed so your books, reading positions, bookmarks, settings, folders, and reading statistics stay on your own devices unless you choose to transfer files between your phone, watch, and browser on your local network.</p>
+
+      <h2>Data Stored on Your Devices</h2>
+      <p>wBooks may store the following data locally on your watch:</p>
+      <ul>
+        <li>Books you add or download.</li>
+        <li>Book folders and ordering.</li>
+        <li>Reading positions, bookmarks, reading mode, font, color, brightness, and other settings.</li>
+        <li>Reading statistics such as reading time, word counts, and completed books.</li>
+        <li>Project Gutenberg download markers, used to show whether a public-domain book has already been added.</li>
+      </ul>
+      <p>wBooks Utility may store temporary files or converted files on your phone while sending a book to the watch, including converted HTML output for PDFs. These files are used only to complete the transfer.</p>
+
+      <h2>Data Sent Between Your Devices</h2>
+      <p>wBooks Utility communicates with the watch app through Android and Wear OS connection services. This is used to:</p>
+      <ul>
+        <li>Send books from the phone to the watch.</li>
+        <li>Sync the watch library list, folders, settings, and reading statistics to the Utility app.</li>
+        <li>Apply settings changes from the Utility app to the watch.</li>
+      </ul>
+      <p>This communication is between your paired devices and is not a wBooks cloud sync service.</p>
+
+      <h2>Local Web Interface</h2>
+      <p>The watch app can start a local web interface for adding and organizing books from a browser on the same network. When enabled, the web interface may expose your library list, settings, reading statistics, and upload controls to devices that can reach the local address and pass the displayed PIN gate.</p>
+      <p>Use the web interface only on trusted networks. wBooks does not send the web interface data to a wBooks server.</p>
+
+      <h2>Project Gutenberg Downloads</h2>
+      <p>When you search or download books from Project Gutenberg, your device contacts Project Gutenberg directly to fetch catalog results and book files. Project Gutenberg may receive standard network information such as your IP address, user agent, request time, and requested URLs. Their handling of that information is governed by Project Gutenberg's own policies.</p>
+
+      <h2>Optional Crash Reports</h2>
+      <p>wBooks includes optional crash reporting through Sentry. Crash reporting is disabled unless you enable it in settings. If enabled, crash reports may include technical diagnostic information such as:</p>
+      <ul>
+        <li>App version, device model, operating system version, and crash time.</li>
+        <li>Stack traces and error details.</li>
+        <li>Basic app state needed to diagnose the crash.</li>
+      </ul>
+      <p>Crash reports are used only to find and fix bugs. They are not used for advertising or profiling. You can turn crash reporting off in settings at any time.</p>
+
+      <h2>Data Not Collected</h2>
+      <p>wBooks does not collect:</p>
+      <ul>
+        <li>Account information.</li>
+        <li>Contacts, calendars, call logs, SMS, or precise location.</li>
+        <li>Payment information.</li>
+        <li>Advertising identifiers.</li>
+        <li>Audio recordings.</li>
+        <li>Photos or media library contents, except book files you explicitly choose to add.</li>
+      </ul>
+
+      <h2>Children</h2>
+      <p>wBooks is a general-audience reading tool and is not directed to children under 13. The app does not knowingly collect personal information from children.</p>
+
+      <h2>Deleting Your Data</h2>
+      <p>You can delete books from the watch library inside wBooks, wBooks Utility, or the local web interface. You can clear all app data using your device's system app settings by uninstalling the app or clearing storage for wBooks and wBooks Utility.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>This policy may be updated as wBooks changes. Updates will be published at this URL.</p>
+
+      <h2>Contact</h2>
+      <p>For privacy questions, bug reports, or feature requests, open an issue at <a href="https://github.com/FredApps/wBooks/issues">https://github.com/FredApps/wBooks/issues</a>.</p>
+    </article>
+  </main>
+</body>
+</html>
